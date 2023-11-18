@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,81 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}  */
+#head{
+  
+  font-family: sans-serif, 'Calibri Light';
+  font-display: white;
+
+  background-color: #159957;
+  padding-top: 2rem;
+  padding-right: 4rem;
+  padding-bottom: 1.5rem;
+  background-image: linear-gradient(120deg, #155799, rgb(20, 153, 87));
 }
+#para{
+    font-family: sans-serif;
+    text-align: justify;
+    text-align: justify-center;
+    margin-bottom: 3rem;
+    font-weight: lighter;
+    font-size: 21px;
+    opacity: 0.6;
+    padding-top: 0rem;
+    padding-right: 16rem;
+    padding-left: 16rem;
+    padding-bottom: 4rem;
+    
+}
+#header {
+  font-family: sans-serif;
+  padding-bottom: 5px;
+  font-size: 60px;
+}
+
+/* main body */
+#main{
+  font-family: 'Calibri Light';
+  text-align: justify-center;
+  font-size: 40px;
+  color:  rgb(20, 153, 87);
+}
+#img{
+  text-align: center;
+  position: relative;
+  padding-top: 0rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+}
+#mainn{
+    font-family: 'Calibri Light';
+    text-align: justify-center;
+    font-size: 30px;
+    color:  rgb(20, 153, 87);
+    font-family: sans-serif;
+    text-align: justify-center;
+    font-weight: normal;
+    opacity: 0.7;
+    padding-right: 16rem;
+    padding-left: 16rem;
+}
+#heading{
+  font-family: 'Calibri Light';
+  color:  rgb(20, 153, 87);
+  }
+  #style{
+    font-family: 'Calibri Light';
+    table-layout: auto;
+    
+    }
+    #footer{
+      font-family: sans-serif, 'Calibri Light';
+      font-display: white;
+      text-align: justify-center;
+      background-color: #9b3a7e;
+      padding-top: 2rem;
+      padding-right: 0rem;
+      padding-bottom: 1rem;
+      padding-block: 5px;
+      background-image: linear-gradient(120deg, #991576, rgb(140, 162, 39));}
